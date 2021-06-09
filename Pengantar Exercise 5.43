@@ -8,7 +8,12 @@ Dosen Pengampu dari MatKul Sistem Operasi :
 Buku yang digunakan : Sistem Operasi Operating System Concepts Essentials 2nd Edition[Conflict]
 
 Soal yang dikerjakan Exercise 5.43, adalah sebagai berikut :
-5.43.) Exercise 4.22 asked you to design a multithreaded program that estimated π using the Monte Carlo technique. In that exercise, you were asked to create a single thread that generated random points, storing the result in a global variable. Once that thread exited, the parent thread performed the calcuation that estimated the value of π. Modify that program so that you create several threads, each of which generates random points and determines if the points fall within the circle. Each thread will have to update the global count of all points that fall within the circle. Protect against race conditions on updates to the shared global variable by using mutex locks.
+5.43.) Exercise 4.22 asked you to design a multithreaded program that estimated π using the Monte Carlo technique.
+In that exercise, you were asked to create a single thread that generated random points, storing the result in a global variable.
+Once that thread exited, the parent thread performed the calcuation that estimated the value of π.
+Modify that program so that you create several threads, each of which generates random points and determines if the points fall within the circle.
+Each thread will have to update the global count of all points that fall within the circle.
+Protect against race conditions on updates to the shared global variable by using mutex locks.
 
 Tugas jawaban dosen dari pembahasan soal diatas, adalah sebagai berikut :
 Soal ke-1.) Untuk apakah tujuan program ini? 
